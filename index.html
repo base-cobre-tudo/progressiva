@@ -849,6 +849,7 @@ footer{
         <h3 id="quiz-title" style="font-size:20px;font-weight:800;color:var(--white);margin-bottom:10px;line-height:1.3;"></h3>
         <p id="quiz-body" style="font-size:13px;color:rgba(255,255,255,.75);line-height:1.7;margin-bottom:22px;"></p>
         <div id="quiz-kit-highlight" style="background:rgba(201,168,76,.12);border:1px solid rgba(201,168,76,.3);border-radius:14px;padding:14px 16px;margin-bottom:20px;text-align:left;"></div>
+        <p style="font-size:10px;color:rgba(255,255,255,.5);margin-bottom:8px;text-align:center;">🔒 CPF apenas para nota fiscal · Pague só na entrega</p>
         <a id="quiz-result-btn" href="#" target="_blank" class="btn-primary" style="max-width:100%;background:linear-gradient(135deg,var(--gold),var(--gold-light));color:var(--dark);">
           🍃 VER MEUS KITS AGORA
         </a>
@@ -1086,6 +1087,41 @@ footer{
   </div>
 </section>
 
+
+<!-- TRUST PRE-CHECKOUT -->
+<section style="background:var(--green-deep);padding:32px 20px;">
+  <div style="max-width:400px;margin:0 auto;text-align:center;">
+    <p style="font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-light);margin-bottom:16px;">✅ COMPRA 100% SEGURA</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px;">
+      <div style="background:rgba(255,255,255,.06);border-radius:12px;padding:14px 10px;text-align:center;">
+        <div style="font-size:24px;margin-bottom:6px;">🔒</div>
+        <p style="font-size:11px;font-weight:700;color:var(--white);margin-bottom:3px;">Dados protegidos</p>
+        <p style="font-size:10px;color:rgba(255,255,255,.5);">CPF só para nota fiscal</p>
+      </div>
+      <div style="background:rgba(255,255,255,.06);border-radius:12px;padding:14px 10px;text-align:center;">
+        <div style="font-size:24px;margin-bottom:6px;">💰</div>
+        <p style="font-size:11px;font-weight:700;color:var(--white);margin-bottom:3px;">Pague na entrega</p>
+        <p style="font-size:10px;color:rgba(255,255,255,.5);">Zero adiantado</p>
+      </div>
+      <div style="background:rgba(255,255,255,.06);border-radius:12px;padding:14px 10px;text-align:center;">
+        <div style="font-size:24px;margin-bottom:6px;">🛡️</div>
+        <p style="font-size:11px;font-weight:700;color:var(--white);margin-bottom:3px;">Garantia 7 dias</p>
+        <p style="font-size:10px;color:rgba(255,255,255,.5);">Satisfação garantida</p>
+      </div>
+      <div style="background:rgba(255,255,255,.06);border-radius:12px;padding:14px 10px;text-align:center;">
+        <div style="font-size:24px;margin-bottom:6px;">🏛️</div>
+        <p style="font-size:11px;font-weight:700;color:var(--white);margin-bottom:3px;">ANVISA aprovado</p>
+        <p style="font-size:10px;color:rgba(255,255,255,.5);">Nº 2.04.784-1</p>
+      </div>
+    </div>
+    <!-- CPF explicação -->
+    <div style="background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.25);border-radius:14px;padding:16px;">
+      <p style="font-size:12px;color:var(--gold-light);font-weight:700;margin-bottom:6px;">❓ Por que pedem meu CPF?</p>
+      <p style="font-size:12px;color:rgba(255,255,255,.7);line-height:1.6;">O CPF é solicitado apenas para emissão da nota fiscal eletrônica e para garantir que a entrega chegue corretamente na sua casa. <strong style="color:var(--white)">Você não paga nada agora.</strong> O pagamento é feito ao entregador.</p>
+    </div>
+  </div>
+</section>
+
 <!-- OFERTA -->
 <section class="offer-section" id="oferta">
   <p class="section-label" style="color:var(--gold-light)">Escolha seu kit</p>
@@ -1107,6 +1143,20 @@ footer{
         <li>Pague na entrega ou online</li>
         <li>Garantia 7 dias</li>
       </ul>
+      <div style="background:#fff;border:2px solid #2d6e47;border-radius:16px;padding:16px;margin-bottom:14px;">
+    <div style="display:flex;align-items:flex-start;gap:10px;">
+      <span style="font-size:22px;flex-shrink:0;">🔒</span>
+      <div>
+        <p style="font-size:13px;font-weight:800;color:#1a4a2e;margin-bottom:4px;">Sua compra é 100% segura</p>
+        <p style="font-size:12px;color:#4a5a50;line-height:1.6;margin-bottom:6px;">O próximo passo vai pedir seu <strong>CPF</strong> — ele é usado <strong>só para emitir a nota fiscal</strong> e garantir sua entrega. Nenhum dado de pagamento é solicitado agora.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;">
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Pague na entrega</span>
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Zero adiantado</span>
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Nota fiscal emitida</span>
+        </div>
+      </div>
+    </div>
+  </div>
       <a href="https://entrega.logzz.com.br/pay/meml28g7v/progressiva-vegetal-havana-1x170" onclick="fbq('track','InitiateCheckout',{value:170,currency:'BRL',num_items:1});if(typeof ttq!=='undefined')ttq.track('InitiateCheckout',{value:170,currency:'BRL'})" onclick="if(typeof ttq!=='undefined')ttq.track('InitiateCheckout',{value:170,currency:'BRL'})" target="_blank" class="btn-ghost" data-buy="1">QUERO 1 UNIDADE</a>
     </div>
 
@@ -1126,6 +1176,20 @@ footer{
         <li>Garantia 7 dias</li>
         <li style="color:var(--gold-light)">Economize R$48</li>
       </ul>
+      <div style="background:#fff;border:2px solid #2d6e47;border-radius:16px;padding:16px;margin-bottom:14px;">
+    <div style="display:flex;align-items:flex-start;gap:10px;">
+      <span style="font-size:22px;flex-shrink:0;">🔒</span>
+      <div>
+        <p style="font-size:13px;font-weight:800;color:#1a4a2e;margin-bottom:4px;">Sua compra é 100% segura</p>
+        <p style="font-size:12px;color:#4a5a50;line-height:1.6;margin-bottom:6px;">O próximo passo vai pedir seu <strong>CPF</strong> — ele é usado <strong>só para emitir a nota fiscal</strong> e garantir sua entrega. Nenhum dado de pagamento é solicitado agora.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;">
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Pague na entrega</span>
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Zero adiantado</span>
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Nota fiscal emitida</span>
+        </div>
+      </div>
+    </div>
+  </div>
       <a href="https://entrega.logzz.com.br/pay/meml28g7v/progcreme2x125" onclick="fbq('track','InitiateCheckout',{value:250,currency:'BRL',num_items:2});if(typeof ttq!=='undefined')ttq.track('InitiateCheckout',{value:250,currency:'BRL'})" onclick="if(typeof ttq!=='undefined')ttq.track('InitiateCheckout',{value:250,currency:'BRL'})" target="_blank" class="btn-primary" data-buy="2">QUERO AS 2 UNIDADES</a>
     </div>
 
@@ -1144,6 +1208,20 @@ footer{
         <li>Garantia 7 dias</li>
         <li style="color:var(--green-light)">Economize R$130</li>
       </ul>
+      <div style="background:#fff;border:2px solid #2d6e47;border-radius:16px;padding:16px;margin-bottom:14px;">
+    <div style="display:flex;align-items:flex-start;gap:10px;">
+      <span style="font-size:22px;flex-shrink:0;">🔒</span>
+      <div>
+        <p style="font-size:13px;font-weight:800;color:#1a4a2e;margin-bottom:4px;">Sua compra é 100% segura</p>
+        <p style="font-size:12px;color:#4a5a50;line-height:1.6;margin-bottom:6px;">O próximo passo vai pedir seu <strong>CPF</strong> — ele é usado <strong>só para emitir a nota fiscal</strong> e garantir sua entrega. Nenhum dado de pagamento é solicitado agora.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:6px;">
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Pague na entrega</span>
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Zero adiantado</span>
+          <span style="background:#e8f5e9;color:#2d6e47;font-size:10px;font-weight:700;padding:3px 8px;border-radius:99px;">✓ Nota fiscal emitida</span>
+        </div>
+      </div>
+    </div>
+  </div>
       <a href="https://entrega.logzz.com.br/pay/meml28g7v/03-progressiva-vegetal-havana-320" onclick="fbq('track','InitiateCheckout',{value:320,currency:'BRL',num_items:3});if(typeof ttq!=='undefined')ttq.track('InitiateCheckout',{value:320,currency:'BRL'})" onclick="if(typeof ttq!=='undefined')ttq.track('InitiateCheckout',{value:320,currency:'BRL'})" target="_blank" class="btn-ghost" data-buy="3">QUERO AS 3 UNIDADES</a>
     </div>
 
@@ -1283,6 +1361,15 @@ footer{
   <h2 class="section-title">Perguntas frequentes</h2>
   <div class="faq-list">
     <div class="faq-item">
+      <div class="faq-q">Por que pedem meu CPF no checkout?</div>
+      <div class="faq-a"><div class="faq-a-inner">O CPF é solicitado pela plataforma Logzz exclusivamente para emissão da nota fiscal eletrônica e para garantir que a entrega chegue ao endereço correto. Você não precisa pagar nada agora — o pagamento é feito diretamente ao entregador quando o produto chegar na sua porta.</div></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">É seguro colocar meus dados?</div>
+      <div class="faq-a"><div class="faq-a-inner">Sim. A Logzz é uma plataforma brasileira que processa mais de 80 mil pedidos por mês com segurança. Seus dados são utilizados apenas para processar o pedido e emitir a nota fiscal. Nenhum dado de pagamento é solicitado antecipadamente.</div></div>
+    </div>
+
+    <div class="faq-item">
       <div class="faq-q">É golpe? O produto realmente chega?</div>
       <div class="faq-a"><div class="faq-a-inner">Sim, o produto chega. A Logzz é uma plataforma brasileira que processa mais de 80 mil pedidos por mês. Você não paga nada adiantado — o pagamento é feito diretamente ao entregador quando o produto chegar na sua porta.</div></div>
     </div>
@@ -1348,7 +1435,7 @@ footer{
 <!-- STICKY FOOTER -->
 <div class="sticky-footer">
   <a href="#oferta" class="btn-primary" onclick="document.getElementById('oferta').scrollIntoView({behavior:'smooth'});return false;">🍃 QUERO CABELO LISO — PAGO NA ENTREGA</a>
-  <p class="sticky-footer-sub">Frete grátis · Entrega ou online · Garantia 7 dias</p>
+  <p class="sticky-footer-sub">🔒 Seguro · CPF só para nota fiscal · Pague na entrega</p>
 </div>
 
 <script>
